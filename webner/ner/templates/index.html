@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NER using CRF </title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+<div class="mainc">
+    <h2> Named Entity Recognition using Conditional Random Fields </h2>
+    <br>
+        <form action="initpredict" method="post">
+            {% csrf_token %}
+            <input type="submit" value="Train Model" class="subButton">
+        </form>
+</div>
+</body>
+</html>

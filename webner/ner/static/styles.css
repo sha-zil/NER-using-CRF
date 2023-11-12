@@ -1,0 +1,40 @@
+h2{
+text-align:center;
+color: brown;
+}
+body{
+    background-color: black;
+}
+.mainc{
+    width: 550px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.sentence{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+}
+.subButton{
+    padding: 5px;
+    width: 50%;
+    background-color: rgb(147, 147, 239);
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.subButton:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.result{
+    text-align: center;
+    font-size: 1.5em;
+}
